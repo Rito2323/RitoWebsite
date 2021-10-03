@@ -14,10 +14,10 @@
     <div class="navbar">
         <a class="logo" href="#">RITABRATA</a> 
         <ul class="nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="about.html">Education</a></li>
-            <li><a href="experience.html">Experience</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li id="l1"><a href="#" onclick="myFunction1(1)">Home</a></li>
+            <li id="l2"><a href="#" onclick="myFunction1(2)">Education</a></li>
+            <li id="l3"><a href="#" onclick="myFunction1(3)">Experience</a></li>
+            <li id="l4"><a href="#" onclick="myFunction1(4)">Contact</a></li>
             <li><a href=" https://drive.google.com/file/d/1ar5ap8mx3wrJvWS0s8cSpZzj_XH1Bpyv/view?usp=sharing">resume</a></li>
             <li><a href="https://www.linkedin.com/in/ritabrata-podder-rito-48106577/">Linkdn</a></li>
 
@@ -34,19 +34,208 @@
 
     </div>
     
+    <div class="content" id="main_content"></div>
+    <div class="banner-area" id="home" hidden="true">
+
+    </div>
+
+
+    <div class="area1" id="area_1" hidden="true">
+        <section class="about-area" id="about_body" >
+                <div>          
+                    <img src="https://static-ssl.businessinsider.com/image/570fc47552bcd0210c8bcada-2125/gettyimages-454370742.jpg"
+                    alt="Graduate" class="one" style="height:600px" />
+                </div>
+                <div class="text-part">
+                    <h1>Education</h1>
+                    <h2>Graduation</h2>
+                    <p>
+                        With current CGPA 8.00 ,pursuing advanced Mtech courses in Computer Sc/ML from IIIT-H . High in logical thinking.Graduated from one of the top Btech University in India -NIT Warangal in ECE 
+                    </p>
     
-    <section class="banner-area" id="home"></section>
+                    <P>
+                        • Btech in Electronics And Communication Engineering: CGPA 8.48/10 :1st Division: AIEEE AIR 2081 (GEN)
+                        
+                        </P>
+                     <P>
+                        • 2 times Merit Scholarship Holder at NIT Warangal for being among top 10 students at Department of ECE
+                        <P>
+                </div>
+        </section>
+    
+        <style>
+            h2 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+        </style>
+        <br/>
+        <br/>
+        <br/>
+        <h2>Degrees</h2>
+    
+        <table class="styled-table">
+            <!-- <thead>
+                <tr>
+                    <th></th>
+                    <th>Points</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td><img src='images/iiit_logo.png' alt="IIIT Logo" width="auto" height="auto"></td>
+                    <td>
+                        <table id="c">
+                            <tr>
+                              <th>International Institute of Information Technology(IIIT-H)</th>
+                            </tr>
+                            <tr>
+                              <td>Pursuing Mtech CSE</td>
+                            </tr>
+                            <tr>
+                                <td>CGPA 8.00</td>
+                              </tr>
+                              <tr>
+                                <td><a href="https://www.iiit.ac.in/">IIIT-H link</a></td>
+                              </tr>
+                              
+                        </table>
+                    </td>
+                </tr>
+                    <td><img src="https://qph.fs.quoracdn.net/main-qimg-2d1dc4471e5161fd03eb1a2442b0a882" alt="NITW Logo"></td>
+                    <td>
+                        <table id="c">
+                            <tr>
+                              <th>National Institute Of Technology Warangal(NITW)</th>
+                            </tr>
+                            <tr>
+                                <td>BTech ECE</td>
+                              </tr>
+                              <tr>
+                                  <td>CGPA 8.5</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="https://www.nitw.ac.in/">NIT-W link</a></td>
+                                  </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+        </table>
+        </div>
 
-    <script>
-        function myFunction() {
-          var d = new Date();
-          var offset = new Date().getTimezoneOffset(), o = Math.abs(offset);
-          var c= (offset < 0 ? "+" : "-") + ("00" + Math.floor(o / 60)).slice(-2) + ":" + ("00" + (o % 60)).slice(-2);
-          document.getElementById("demo").innerHTML ="Time in IST: " + d + " || User TimeZone: " + c;
-        }
+        <div class="area2" id="area_2" hidden="true">
 
-</script>
- 
+            <section class="about-area" id="about_body">
+                <div>          
+                    <img src="https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+                    alt="Software" class="one" style="height:600px" />
+                </div>
+                <div class="text-part">
+                    <h1>TECHNICAL EXPERIENCE</h1>
+                    <h2>JOB ROLE</h2>
+                    <p>
+                        Was campus hire at Oracle. At Oracle working on Cloud SaaS ERP product gave me exposure to various new technologies and gave in depth exposure to computer science field
+                    </p>
+    
+                    <P>
+                        In 6 years span got promoted from Application Engineer to Project Leader, Development.
+                        
+                        </P>
+                     <P>
+                        • Current position is Project Leader at Oracle
+                        <P>
+                </div>
+        </section>
+    
+        <style>
+            h2 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+        </style>
+        <br/>
+        <br/>
+        <br/>
+        <h2>VARIOUS JOB ROLES</h2>
+    
+        <table class="styled-table">
+            <!-- <thead>
+                <tr>
+                    <th></th>
+                    <th>Points</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td><img src='https://logos-world.net/wp-content/uploads/2020/09/Oracle-Emblem.jpg' alt="ORCL Logo" width="auto" height="auto"></td>
+                    <td>
+                        <table id="c">
+                            <tr>
+                              <th>ROLE FROM JUN 2020-PRESENT</th>
+                            </tr>
+                            <tr>
+                              <td>Project leader,Development</td>
+                            </tr>
+                            <tr>
+                                <td>Mentor junior developers ; innovate ; lead young developers</td>
+                              </tr>
+                        </table>
+                    </td>
+                </tr>
+                <td><img src='https://logos-world.net/wp-content/uploads/2020/09/Oracle-Emblem.jpg' alt="ORCL Logo" width="auto" height="auto"></td>
+                    <td>
+                        <table id="c">
+                            <tr>
+                              <th>ROLE FROM DEC 2017-JUN 2020</th>
+                            </tr>
+                            <tr>
+                                <td>Senior Application Engineer</td>
+                              </tr>
+                              <tr>
+                                  <td>Work with senior team members; deliver ; and innovate</td>
+                                </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tr>
+            <td><img src='https://logos-world.net/wp-content/uploads/2020/09/Oracle-Emblem.jpg' alt="ORCL Logo" width="auto" height="auto"></td>
+            <td>
+                <table id="c">
+                    <tr>
+                      <th>ROLE FROM JUN 2015-DEC 2017</th>
+                    </tr>
+                    <tr>
+                        <td> Application Engineer</td>
+                      </tr>
+                      <tr>
+                          <td>Do trainings and learn; code ; solve bugs</td>
+                        </tr>
+                </table>
+            </td>
+        </tr>
+                <!-- and so on... -->
+            </tbody>
+        </table>
+     </div>
+     
+     
+     <div class="area3" id="area_3" hidden="true">
+     <div class="container" id="container1" >
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Contact Me</h2>
+                <input type="text" class="field" placeholder="Ritabrata Podder">
+                <input type="text" class="field" placeholder="ritabrata.podder@gmail.com">
+                <input type="text" class="field" placeholder="+919700763160">
+                
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="./script_website.js" ></script>
 </body>
 </html>
 
