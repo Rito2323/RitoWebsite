@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Rito's Portfolio
+            </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    </head>
+  
+  <body onload="myFunction()">
+    
+    <div class="navbar">
+        <a class="logo" href="#">RITABRATA</a> 
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="about.html">Education</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href=" https://drive.google.com/file/d/1ar5ap8mx3wrJvWS0s8cSpZzj_XH1Bpyv/view?usp=sharing">resume</a></li>
+            <li><a href="https://www.linkedin.com/in/ritabrata-podder-rito-48106577/">Linkdn</a></li>
+
+            
+        </ul>
+    </div>
+    <br />
+    <br/>
+    <br/>
+    <br/>
+    <div>
+        <div class="date" id="id1">
+            <p id="demo"  style="text-align:center ; color:black; font-style: italic; font-size :20px"></p>
+
+    </div>
+    
+    
+    <section class="banner-area" id="home"></section>
+
+    <script>
+        function myFunction() {
+          var d = new Date();
+          var offset = new Date().getTimezoneOffset(), o = Math.abs(offset);
+          var c= (offset < 0 ? "+" : "-") + ("00" + Math.floor(o / 60)).slice(-2) + ":" + ("00" + (o % 60)).slice(-2);
+          document.getElementById("demo").innerHTML ="Time in IST: " + d + " || User TimeZone: " + c;
+        }
+
+</script>
+ 
+</body>
+</html>
+
