@@ -6,7 +6,7 @@ function myFunction() {
       var d = new Date();
       var offset = new Date().getTimezoneOffset(), o = Math.abs(offset);
       var c= (offset < 0 ? "+" : "-") + ("00" + Math.floor(o / 60)).slice(-2) + ":" + ("00" + (o % 60)).slice(-2);
-      document.getElementById("demo").innerHTML ="Time in IST: " + d + " || User TimeZone: " + c;
+      document.getElementById("demo").innerHTML ="Time in IST: " + d + " || Visitor TimeZone:GMT " + c;
     }
 
     function myFunction1(a) {

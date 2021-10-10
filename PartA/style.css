@@ -21,11 +21,11 @@ p{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #D4D7DE;
+    background-color: #87cefa;
     width: 100%;
     height: 70px;
     z-index: 1;
-    font-family: Garamond, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: large;
 }
@@ -129,9 +129,9 @@ img.one {
     border-collapse: collapse;
     margin: 25px 0;
     font-size: 0.9em;
-    font-family: sans-serif;
+    font-family:  'Times New Roman';
     min-width: 1000px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.014);
     margin-left: auto;
     margin-right: auto;
     border-radius:6px;
@@ -278,7 +278,7 @@ textarea{
 }
 
 .field:focus{
-    border: 2px solid rgba(30,85,250,0.47);
+    border: 2px solid rgba(224, 30, 250, 0.47);
     background-color: #fff;
 }
 
